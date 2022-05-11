@@ -1,0 +1,83 @@
+.Title{
+    display: flex;
+    align-items: flex-end;  
+    justify-content: center;
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.Content{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: grey;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.newworld{
+    color: white;
+}
+
+.Animals{
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+
+.Sports{
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    width: 150px;
+    background-color: brown;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+
+.Cars{
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+    width: 150px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin-right: 1em;
+}
+
+.Contacts{
+    display: grid;
+    justify-content: start;
+    background-color: white;
+    border: 1px solid black;
+}
+
+    /* Partie Formulaire  */
+
+#email{
+display: flex;
+flex-flow:column wrap-reverse;
+
+}
+
+
+#nom{
+    display: flex;
+    flex-direction: row;
+}
+
+#sujet{
+    display: flex;
+    flex-direction: row;
+}
+
+#message{
+    display: flex;
+    flex-direction: row;
+}
