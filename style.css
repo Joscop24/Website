@@ -1,3 +1,9 @@
+/* 
+    Developpe par Joris Bourdin
+
+
+
+*/
 .Title{
     display: flex;
     align-items: flex-end;  
@@ -6,6 +12,42 @@
     border: 1px solid black;
     margin-bottom: 20px;
 }
+
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*  Systeme de barre de navigation
+nav {
+    border-bottom: 1px solid black;
+    display: flex;
+    
+}
+
+.Titre ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+*/
+
+
+
+
 
 .Content{
     display: flex; 
@@ -17,66 +59,36 @@
     margin-bottom: 20px;
 }
 
-.newworld{
-    color: white;
-}
-
-.Animals{
+.Animaux{
     display: flex;
-    flex-direction: row;
     height: 125px;
     width: 150px;
     background-color: red;
     border: 1px solid black;
-    margin-right: 1em;
-}
-
-.Sports{
-    display: flex;
-    flex-direction: column;
-    height: 125px;
-    width: 150px;
-    background-color: brown;
-    border: 1px solid black;
-    margin-right: 1em;
-}
-
-.Cars{
-    display: flex;
-    flex-direction: column;
-    height: 125px;
-    width: 150px;
-    background-color: yellow;
-    border: 1px solid black;
-    margin-right: 1em;
 }
 
 
     /* Partie Formulaire  */
 
-
 .Contacts{
-    display: flex;
-    flex-direction: start ;
-    height: 520px;
-    width: 1005px;
+    display: grid;
+    justify-content: center;
     background-color: white;
     border: 1px solid black;
+    margin-top: 0px;
 }
 
 
 #name{
     display: flex;
-    flex-wrap: wrap;
     height: 20px;
     width: 175px;
     margin-right: 1em;
 }
 
 #email{
-display: flex;
-flex-wrap: nowrap;
-justify-content: center;
+display: grid;
+
 height: 20px;
 width: 175px;
 margin-right: 10em;
