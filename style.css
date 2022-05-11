@@ -13,11 +13,81 @@
     margin-bottom: 20px;
 }
 
+    /* 2eme Div avec les 3 div [Animaux/Sports/Voitures]*/
 
-h1{
-    display: flex;
-    justify-content: flex-start;
+.Content{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+    height: 250px;
+    background-color: grey;
+    border: 1px solid black;
+    margin-bottom: 20px;
 }
+
+.Animaux{
+    display: flex;
+    
+    height: 125px;
+    width: 150px;
+    background-color: red;
+    border: 1px solid black;  
+}
+
+.Sports{
+    display: flex;
+    height: 125px;
+    width: 150px;
+    background-color: pink;
+    border: 1px solid black; 
+}
+
+.Voitures{
+    display: flex;
+    height: 125px;
+    width: 150px;
+    background-color: yellow;
+    border: 1px solid black;    
+}
+
+
+
+    /* Partie Formulaire  */
+
+.Contacts{
+    display: grid;
+    justify-content: center;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    margin-top: 0px;
+}
+
+
+#name{
+    display: flex;
+    height: 20px;
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+#email{
+    display: flex;
+    height: 20px;
+    width: 175px;
+    margin-bottom: 20px;
+}
+
+
+#msg{
+    display: flex;
+    height: 80px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+
+
+
 
 /*  Systeme de barre de navigation
 nav {
@@ -44,59 +114,3 @@ nav {
     padding: 0 3px;
 }
 */
-
-
-
-
-
-.Content{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    height: 250px;
-    background-color: grey;
-    border: 1px solid black;
-    margin-bottom: 20px;
-}
-
-.Animaux{
-    display: flex;
-    height: 125px;
-    width: 150px;
-    background-color: red;
-    border: 1px solid black;
-}
-
-
-    /* Partie Formulaire  */
-
-.Contacts{
-    display: grid;
-    justify-content: center;
-    background-color: white;
-    border: 1px solid black;
-    margin-top: 0px;
-}
-
-
-#name{
-    display: flex;
-    height: 20px;
-    width: 175px;
-    margin-right: 1em;
-}
-
-#email{
-display: grid;
-
-height: 20px;
-width: 175px;
-margin-right: 10em;
-}
-
-
-#msg{
-    display: flex;
-    height: 40px;
-    width: 400px;
-}
