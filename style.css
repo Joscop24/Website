@@ -51,33 +51,40 @@
     margin-right: 1em;
 }
 
+
+    /* Partie Formulaire  */
+
+
 .Contacts{
-    display: grid;
-    justify-content: start;
+    display: flex;
+    flex-direction: start ;
+    height: 520px;
+    width: 1005px;
     background-color: white;
     border: 1px solid black;
 }
 
-    /* Partie Formulaire  */
+
+#name{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20px;
+    width: 175px;
+    margin-right: 1em;
+}
 
 #email{
 display: flex;
-flex-flow:column wrap-reverse;
-
+flex-wrap: nowrap;
+justify-content: center;
+height: 20px;
+width: 175px;
+margin-right: 10em;
 }
 
 
-#nom{
+#msg{
     display: flex;
-    flex-direction: row;
-}
-
-#sujet{
-    display: flex;
-    flex-direction: row;
-}
-
-#message{
-    display: flex;
-    flex-direction: row;
+    height: 40px;
+    width: 400px;
 }
