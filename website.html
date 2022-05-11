@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/> 
+    <title>Welcome</title>
+</head>
+<body>
+    
+    <!--Commentaires-->
+
+    <div class="Title ">
+        <h1>Title</h1>
+    </div>
+
+    
+    <div class="Content">
+
+        <div class="Animals"> 
+            <ul>Animaux
+                <li>Chien</li>
+                <li>Chat</li>
+                <li>Enfant</li>
+            </ul>
+        </div>
+
+        <div class="Sports">
+            <ul>Sports
+                <li>Foot</li>
+                <li>F1</li>
+                <li>Hand</li>
+            </ul>
+        </div>
+
+        <div class="Cars">
+            <ul>Voitures
+                <li>Cupra</li>
+                <li>Peugeot</li>
+                <li>Mclaren</li>
+            </ul>
+        </div>
+    </div>
+
+   
+
+    <div class="Contacts">
+        <h1>Contactez-nous</h1> 
+        <p>Un problème, une question, envoie nous ton message.</p>
+
+        <form action="/page-traitement-donnees" method="post">
+            <div>
+                <label for="nom">Votre nom</label>
+                <input type="text" id="email" placeholder="nom" required>         
+            </div>
+            <div>
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+            </div>
+            <div>
+                <label for="sujet"> Quel est le sujet de votre message ?</label>
+                <input type="sujet" id="sujet" placeholder="Voici le sujet" required> 
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" placeholder="Bonjour, je vous contacte car..." required></textarea>
+            </div>
+            <div>
+                <button type="submit">Envoyer mon message</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
