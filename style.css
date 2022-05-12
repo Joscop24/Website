@@ -1,116 +1,89 @@
 /* 
     Developpe par Joris Bourdin
-
-
-
 */
-.Title{
-    display: flex;
-    align-items: flex-end;  
-    justify-content: center;
-    background-color: white;
+
+ 
+
+ body{
+     margin-left: 0;
+     margin-right: 0;
+     padding: 0;
+ }
+
+
+/* Background-Color */
+
+ .bg-grey{background-color: grey; }
+
+
+/* Global */
+
+li{ list-style: none;}
+.item-list{padding: 5px;}
+button { height: 35px }
+.txt-center { text-align: center; }
+.txt-left { text-align: left; }
+.txt-right { text-align: right; }
+.container { max-width: 90vw; width: 90vw; }
+
+
+
+/* FLEX */
+.row{display: flex;}
+.space-btw{display: flex;
+    justify-content: space-between;}
+.space.around{display: flex;
+    justify-content: space-around;}
+.just-center{display: flex;
+    justify-content: center;}
+.al-itm-center{display: flex;
+    align-items: center;}
+.col{display: flex;
+flex-direction: column;}
+
+
+
+/* NavBar  */
+.nav{
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    /*
+    border-bottom: solid 1px yellow;
+    box-shadow: 0 5px 15px black;
+    */
+}
+
+/* HEADER */
+ header{
+     height: 80vh;
+     max-width: 100vw;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     background-image: url("tesla-model-s-render.jpg");
+ }
+
+/* LIST CARDS*/
+.list.card{display: flex; justify-content: center;}
+
+
+/* CARDS */
+.card{
+    height: auto;
+    width: 25%;
     border: 1px solid black;
-    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
 }
 
-    /* 2eme Div avec les 3 div [Animaux/Sports/Voitures]*/
+.card > img{width: 100%;}
 
-.Content{
-    display: flex; 
-    align-items: center;
-    justify-content: space-around;
-    height: 250px;
-    background-color: grey;
-    border: 1px solid black;
-    margin-bottom: 20px;
-}
+/* IMAGES */
 
-.Animaux{
-    display: flex;
-    
-    height: 125px;
-    width: 150px;
-    background-color: red;
-    border: 1px solid black;  
-}
-
-.Sports{
-    display: flex;
-    height: 125px;
-    width: 150px;
-    background-color: pink;
-    border: 1px solid black; 
-}
-
-.Voitures{
-    display: flex;
-    height: 125px;
-    width: 150px;
-    background-color: yellow;
-    border: 1px solid black;    
+.img{
+    border-radius: 5px;
 }
 
 
-
-    /* Partie Formulaire  */
-
-.Contacts{
-    display: grid;
-    justify-content: center;
-    background-color: whitesmoke;
-    border: 1px solid black;
-    margin-top: 0px;
-}
-
-
-#name{
-    display: flex;
-    height: 20px;
-    width: 175px;
-    margin-bottom: 20px;
-}
-
-#email{
-    display: flex;
-    height: 20px;
-    width: 175px;
-    margin-bottom: 20px;
-}
-
-
-#msg{
-    display: flex;
-    height: 80px;
-    width: 400px;
-    margin-bottom: 20px;
-}
-
-
-
-
-
-/*  Systeme de barre de navigation
-nav {
-    border-bottom: 1px solid black;
-    display: flex;
-    
-}
-
-.Titre ol {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.crumb {
-    display: inline-block;
-}
-
-.crumb a::after {
-    display: inline-block;
-    color: #000;
-    content: '>';
-    font-size: 80%;
-    font-weight: bold;
-    padding: 0 3px;
-}
-*/
