@@ -31,7 +31,7 @@ li {
     height: 40px;
     width: 250;
     border-radius: 20px;
-
+    opacity: 0.70;
 }
 
 .button {
@@ -39,6 +39,8 @@ li {
     height: 40px;
     width: 150px;
 }
+
+
 
 .txt-center {
     text-align: center;
@@ -85,6 +87,11 @@ li {
     align-items: center;
 }
 
+.al-itm-end{
+    display: flex;
+    align-items: flex-end;
+}
+
 .col {
     display: flex;
     flex-direction: column;
@@ -124,7 +131,7 @@ header {
 
 
 /* CARDS */
-
+/* IMAGES */
 img {
     display: flex;
     height: 200px;
@@ -133,4 +140,18 @@ img {
     text-align: center;
 }
 
-/* IMAGES */
+
+/* FORMULAIRE*/
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+#msg{
+    min-width: 80%;
+    width: 80%;
+    height: 80%;
+        
+}
