@@ -1,0 +1,107 @@
+/*
+    PAGE N°2
+*/
+
+body {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+/*BACKGROUND COLOR*/
+
+.bg-black{
+    background-color: black;
+}
+
+/*COLOR FONT*/
+.font-white{
+    color: white;
+}
+
+
+/* GLOBAL */
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.item-list {
+    padding: 5px;
+    margin-right: 15px;
+
+}
+
+
+
+.al-itm-center {
+    display: flex;
+    align-items: flex-end;
+}
+
+.txt-right{
+    text-align: right;
+}
+
+
+.mg-left{
+    margin-left: 25px;
+}
+
+
+
+.mg-right{
+    margin-right: 25px;
+}
+
+
+
+
+/* HEADER */
+header {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/industries.jpeg");
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.img1{
+    height: 70vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/apercu.jpeg");
+}
+
+.img2{
+    height: 70vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/materiel.jpeg");
+}
+
+
+.img3{
+    height: 70vh;
+    width: 70vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/appli.jpeg");
+}
