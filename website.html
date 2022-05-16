@@ -15,8 +15,8 @@
     <div class="nav bg-grey row space-btw">
         <h1>Teslouche</h1>
         <ul class="row">
-            <li class="item-list">Reprise</li>
-            <li class="item-list">Essais</li>
+            <li class="item-list al-itm-center">Reprise</li>
+            <li class="item-list al-itm-center">Essais</li>
         </ul>
     </div>
 
@@ -41,61 +41,64 @@
     <!--class="img"-->
     <div class="list-card al-itm-center space-around row">
 
-        <div class="img col">
+        <div class="img">
             <img src="images/pandc.jpeg" alt="People & Culture">
             <p class="txt-center">People & Culture</p>
-            <button class="button btn-center " type="">
+            <button class="button al-itm-center just-center" type="">
                 En savoir plus
             </button>
         </div>
 
-        <div class="img col">
+        <div class="img">
             <img src="images/environnemental.jpeg" alt="Environnemental Impact">
             <p class="txt-center">Environnemental Impact</p>
-            <button class="button btn-center" type="">
+            <button class="button al-itm-center just-center" type="">
                 En savoir plus
             </button>
         </div>
 
-        <div class="img col">
+        <div class="img">
             <img src="images/supplychain.jpeg" alt="Supply Chain">
             <p class="txt-center">Supply Chain</p>
-            <button class="button" type="">
+            <button class="button al-itm-center just-center" type="">
                 En savoir plus
             </button>
         </div>
 
-        <div class="img col">
+        <div class="img">
             <img src="images/productimpact.jpeg" alt="Product Impact">
             <p class="txt-center">Product Impact</p>
-            <button class="button" type="">
+            <button class="button al-itm-center just-center" type="">
                 En savoir plus
             </button>
         </div>
     </div>
 
 
+    <!--FORMULAIRE-->
     <section>
-        <form action="form" method="post">
-            <div class="row space-around">
-            <div class="form-example">
-                <label for="name">Enter your Name:</label>
-                <input type="text" name="name" id="name" required>
-            </div>
-            <div class="form-example">
-                <label for="email">Enter your email:</label>
-                <input type="email" name="email" id="email" required>
-            </div>
+        
+        <form action="form al-itm-center" method="post">
+            <h3 class="txt-center">Contactez nous</h3>
+            <div class="row space-around mg-top">
+                <div class="form-example">
+                    <label for="name">Enter your Name:</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div class="form-example">
+                    <label for="email">Enter your email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
             </div>
 
 
             <div class="">
-                <label for="msg">Message</label>
+                <label for="msg">Message:</label>
                 <textarea id="msg" name="user-msg">
                 </textarea>
             </div>
-            <div>
-                <button class="btn-head al-itm-center" type="submit">Envoyer le Message</button>
+            <div class="just-center">
+                <button class="btn-form txt-center " type="submit">Envoyer le Message</button>
             </div>
 
         </form>
@@ -103,10 +106,6 @@
 
 
     </section>
-
-
-<!--just-center al-itm-center al-itm-end-->
-
 </body>
 
 </html>
