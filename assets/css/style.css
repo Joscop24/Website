@@ -149,7 +149,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("images/Tesla-car.jpeg");
+    background-image: url("/assets/images/Tesla-car.jpeg");
 
 }
 

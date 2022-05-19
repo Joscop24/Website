@@ -156,7 +156,7 @@ body {
 header {
     height: 100vh;
     width: 100vw;
-    background: center / cover no-repeat url("images/industries.jpeg");
+    background: center / cover no-repeat url("/assets/images/industries.jpeg");
 
 }
 
@@ -181,7 +181,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("images/apercu.jpeg");
+    background-image: url("/assets/images/apercu.jpeg");
 }
 
 .img2 {
@@ -190,7 +190,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("images/materiel.jpeg");
+    background-image: url("/assets/images/materiel.jpeg");
 }
 
 
@@ -200,7 +200,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url("images/appli.jpeg");
+    background-image: url("/assets/images/appli.jpeg");
 }
 
 /* GESTION TEXTES ONE & TWO */
@@ -310,7 +310,7 @@ header {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background: center / cover no-repeat url("images/industries.jpeg");
+        background: center / cover no-repeat url("/assets/images/industries.jpeg");
     }
 
     .img3 {
