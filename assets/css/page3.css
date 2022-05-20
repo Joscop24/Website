@@ -60,10 +60,12 @@ section {
 .mg-btm {
   margin-top: 150px; }
 
-.rela {
+.container {
   position: relative; }
 
-.abs {
-  position: absolute; }
+.txt-img {
+  position: absolute;
+  top: 25%;
+  left: 20%; }
 
 /*# sourceMappingURL=page3.css.map */
