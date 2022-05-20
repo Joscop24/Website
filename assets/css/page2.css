@@ -53,7 +53,7 @@ body {
     margin-right: 15px;
 }
 
-.mg-top{
+.mg-top {
     margin-top: 10px;
 }
 
@@ -83,7 +83,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left,  #a3a3a3, #cccccc);
+    background: linear-gradient(to left, #a3a3a3, #cccccc);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 50px;
     padding: 1em;
@@ -205,7 +205,7 @@ header {
 
 /* GESTION TEXTES ONE & TWO */
 
-.one{
+.one {
     align-content: center;
     justify-content: center;
 }
@@ -304,7 +304,7 @@ header {
     }
 
     .img2 {
-        margin-top: 20px;
+        margin-top: 5px;
         height: 50vh;
         width: auto;
         background-repeat: no-repeat;
@@ -335,7 +335,7 @@ header {
         text-align: center;
     }
 
-    .three{
+    .three {
         text-align: center;
     }
 }
