@@ -1,11 +1,7 @@
 # Website
-Entrainement website Arinfo 2022
 
-Exercice de création d'un site web
+1er site web dev by Joris BOURDIN
 
-Reprise du site de chez Tesla
-
-Rename en Teslouche
-
-
-Page 3 en SASS :"https://www.tesla.com/fr_fr/impact/people"
+page 1 en css avec FLEX
+page 2 en css avec GRID
+page 3 en sass 
